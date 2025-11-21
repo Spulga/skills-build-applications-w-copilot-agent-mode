@@ -1,0 +1,109 @@
+
+body {
+  background: linear-gradient(135deg, #e0f7fa 0%, #f8bbd0 100%);
+  min-height: 100vh;
+  color: #22223b;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(90deg, #4f8a8b 0%, #36b1bf 100%) !important;
+  box-shadow: 0 2px 8px rgba(79, 138, 139, 0.1);
+}
+.navbar-brand span {
+  color: #fff !important;
+  letter-spacing: 1px;
+}
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #ffe082 !important;
+}
+
+/* Headings */
+h1, h2, h3, .card-title {
+  color: #4f8a8b;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Tables */
+.table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(79, 138, 139, 0.07);
+}
+.table thead {
+  background: #4f8a8b;
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e0f7fa;
+}
+.table-bordered th, .table-bordered td {
+  border-color: #4f8a8b;
+}
+
+/* Buttons */
+.btn-success, .btn-primary, .btn-info, .btn-warning, .btn-danger {
+  border-radius: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 8px rgba(79, 138, 139, 0.08);
+}
+.btn-success:hover, .btn-primary:hover, .btn-info:hover, .btn-warning:hover, .btn-danger:hover {
+  filter: brightness(1.1);
+}
+
+/* Links */
+a, .App-link {
+  color: #36b1bf;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #4f8a8b;
+  text-decoration: underline;
+}
+
+/* Cards */
+.card {
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(79, 138, 139, 0.10);
+  border: none;
+}
+.card-title {
+  color: #4f8a8b;
+}
+
+/* Favicon and logo tweaks */
+.navbar-brand img {
+  border: 2px solid #36b1bf;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(79, 138, 139, 0.12);
+}
+
+/* Misc */
+.text-primary {
+  color: #4f8a8b !important;
+}
+.text-success {
+  color: #36b1bf !important;
+}
+.text-info {
+  color: #00bcd4 !important;
+}
+.text-warning {
+  color: #ffb300 !important;
+}
+.text-danger {
+  color: #e57373 !important;
+}
